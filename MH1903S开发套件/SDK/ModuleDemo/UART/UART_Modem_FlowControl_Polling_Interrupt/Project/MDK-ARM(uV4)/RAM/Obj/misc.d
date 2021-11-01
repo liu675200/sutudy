@@ -1,0 +1,16 @@
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\src\misc.c
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\RAM\Obj\misc.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h
+.\RAM\Obj\misc.o: ..\..\User\mhscpu_conf.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h
+.\RAM\Obj\misc.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h
+.\RAM\Obj\misc.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h

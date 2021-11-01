@@ -1,0 +1,5 @@
+--cpu Cortex-M4.fp ".\ram\obj\main.o" ".\ram\obj\mhscpu_it.o" ".\ram\obj\startup_mhscpu.o" ".\ram\obj\misc.o" ".\ram\obj\mhscpu_uart.o" ".\ram\obj\mhscpu_gpio.o" ".\ram\obj\mhscpu_exti.o" ".\ram\obj\mhscpu_sysctrl.o" ".\ram\obj\mhscpu_dma.o" ".\ram\obj\system_mhscpu.o" 
+--library_type=microlib --strict --scatter ".\RAM\Obj\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RAM\List\Project.map" -o .\RAM\Obj\Project.axf

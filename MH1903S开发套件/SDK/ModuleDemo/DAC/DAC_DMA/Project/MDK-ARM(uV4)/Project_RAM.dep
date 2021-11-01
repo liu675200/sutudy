@@ -1,0 +1,224 @@
+Dependencies for Project 'Project', Target 'RAM': (DO NOT MODIFY !)
+F (..\..\User\main.c)(0x5EA7BEDE)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\main.o --omf_browse .\ram\obj\main.crf --depend .\ram\obj\main.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\wave_data.h)(0x5EA7BEDE)
+F (..\..\User\wave_data.c)(0x5EA7BEDE)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\wave_data.o --omf_browse .\ram\obj\wave_data.crf --depend .\ram\obj\wave_data.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\wave_data.h)(0x5EA7BEDE)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM\startup_mhscpu.s)(0x5EA7BEE3)(--cpu Cortex-M4.fp --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"--list .\ram\list\startup_mhscpu.lst --xref -o .\ram\obj\startup_mhscpu.o --depend .\ram\obj\startup_mhscpu.d)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_sysctrl.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_sysctrl.o --omf_browse .\ram\obj\mhscpu_sysctrl.crf --depend .\ram\obj\mhscpu_sysctrl.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_uart.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_uart.o --omf_browse .\ram\obj\mhscpu_uart.crf --depend .\ram\obj\mhscpu_uart.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\misc.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\misc.o --omf_browse .\ram\obj\misc.crf --depend .\ram\obj\misc.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_gpio.c)(0x5EB92428)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_gpio.o --omf_browse .\ram\obj\mhscpu_gpio.crf --depend .\ram\obj\mhscpu_gpio.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_dac.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_dac.o --omf_browse .\ram\obj\mhscpu_dac.crf --depend .\ram\obj\mhscpu_dac.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_dma.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_dma.o --omf_browse .\ram\obj\mhscpu_dma.crf --depend .\ram\obj\mhscpu_dma.d)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\system_mhscpu.c)(0x5EA7BEE3)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\system_mhscpu.o --omf_browse .\ram\obj\system_mhscpu.crf --depend .\ram\obj\system_mhscpu.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5EA7BEE3)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\ModuleDemo\DAC\DAC_DMA\User\mhscpu_conf.h)(0x5EA7BEDE)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_wdt.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_crc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_rtc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sensor.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_bpk.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_i2c.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_kcu.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dac.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_adc.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_dma.h)(0x5EA7BEE5)
+I (E:\SVN_SCPU\MH1903S\MH1903S开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5EA7BEE5)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)

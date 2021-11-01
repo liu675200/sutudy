@@ -1,0 +1,27 @@
+*** Creating Trace Output File '.\RAM\Obj\Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\ram\obj\main.o"'
+### List of Objects: adding '".\ram\obj\startup_mhscpu.o"'
+### List of Objects: adding '".\ram\obj\mhscpu_sysctrl.o"'
+### List of Objects: adding '".\ram\obj\mhscpu_uart.o"'
+### List of Objects: adding '".\ram\obj\misc.o"'
+### List of Objects: adding '".\ram\obj\mhscpu_gpio.o"'
+### List of Objects: adding '".\ram\obj\mhscpu_dma.o"'
+### List of Objects: adding '".\ram\obj\system_mhscpu.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\ram\obj\main.o" ".\ram\obj\startup_mhscpu.o" ".\ram\obj\mhscpu_sysctrl.o" ".\ram\obj\mhscpu_uart.o" ".\ram\obj\misc.o" ".\ram\obj\mhscpu_gpio.o" ".\ram\obj\mhscpu_dma.o" ".\ram\obj\system_mhscpu.o" 
+--library_type=microlib --strict --scatter ".\RAM\Obj\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RAM\List\Project.map" -o .\RAM\Obj\Project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\RAM\Obj\Project.axf'
+### ADS-LD Command File: '.\RAM\Obj\Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\RAM\Obj\Project.lnp', Handle=0x00000F88
+### Writing '.lnp' file
+### ADS-LD Command file '.\RAM\Obj\Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

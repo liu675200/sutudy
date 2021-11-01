@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChipUpdateSetting>
+  <MH1903S>
+    <DeviceSN>
+      <SNUnit Format="F" Data="10808080" />
+      <SNUnit Format="R" Data="67796306" />
+      <SNUnit Format="F" Data="20190808" />
+      <SNUnit Format="I" Data="00000001" />
+    </DeviceSN>
+  </MH1903S>
+</ChipUpdateSetting>

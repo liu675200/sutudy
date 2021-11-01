@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Global>
+  <Setting Name="Port" Value="COM26" />
+  <Setting Name="Baudrate" Value="115200" />
+</Global>

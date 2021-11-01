@@ -1,0 +1,60 @@
+[15:46:22 INFO ]: 当前系统有可用端口2个！
+[15:46:28 INFO ]: 固件解析: 选择了Hex文件，基址 0x01001000 不可修改。
+[15:46:28 INFO ]: 固件解析: 生成未签名固件信息。
+[15:46:28 INFO ]: 选择固件路径: C:\Users\Administrator\Desktop\Flash_IO\main.hex
+[15:46:31 INFO ]: 正在连接,请执行复位......
+[15:46:47 INFO ]: 芯片 MH1903S 连接成功！
+[15:46:47 INFO ]: 当前芯片阶段：Device
+[15:46:50 INFO ]: 固件解析: 选择了Hex文件，基址 0x01001000 不可修改。
+[15:46:50 INFO ]: 固件解析: 生成未签名固件信息。
+[15:46:50 INFO ]: 下载Flash固件到：[ 0x01001000 ~ 0x01001277 ] 共 632 字节。
+[15:46:50 INFO ]: 擦除需要扇区 [ 0x00001000 ~ 0x00002000 ] 共 1 块。
+[15:46:50 INFO ]: 固件头发送成功
+[15:46:50 INFO ]: 正在擦除Flash...
+[15:46:50 INFO ]: Flash擦除成功
+[15:46:50 INFO ]: 正在擦除Flash...
+[15:46:50 INFO ]: Flash擦除成功
+[15:46:50 INFO ]: 下载成功！结束包长度：632
+[15:46:50 INFO ]: 芯片断开连接！
+[16:04:19 INFO ]: 固件解析: 选择了Hex文件，基址 0x01001000 不可修改。
+[16:04:19 INFO ]: 固件解析: 生成未签名固件信息。
+[16:04:19 INFO ]: 选择固件路径: C:\Users\Administrator\Desktop\Flash_IO\main.hex
+[16:04:21 WARN ]: 还未连接芯片！请连接芯片后操作
+[16:04:23 INFO ]: 停止连接芯片！
+[16:04:23 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:30 INFO ]: 停止连接芯片！
+[16:04:30 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:31 INFO ]: 停止连接芯片！
+[16:04:31 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:33 INFO ]: 停止连接芯片！
+[16:04:33 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:40 INFO ]: 正在连接,请执行复位......
+[16:04:45 ERROR ]: 连到系统上的设备没有发挥作用。
+
+[16:04:45 WARN ]: 断连时发生异常：对端口的访问被拒绝。
+[16:04:45 INFO ]: 停止连接芯片！
+[16:04:49 INFO ]: 停止连接芯片！
+[16:04:49 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:55 INFO ]: 停止连接芯片！
+[16:04:55 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:57 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:57 INFO ]: 芯片断开连接！
+[16:04:58 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:58 INFO ]: 芯片断开连接！
+[16:04:59 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:04:59 INFO ]: 芯片断开连接！
+[16:05:00 INFO ]: 停止连接芯片！
+[16:05:00 WARN ]: 芯片连接失败！对端口“COM26”的访问被拒绝。
+[16:05:03 FATAL ]: 未处理线程异常：
+异常信息-> 已关闭 Safe handle
+堆栈信息->    在 System.Runtime.InteropServices.SafeHandle.DangerousAddRef(Boolean& success)
+   在 System.StubHelpers.StubHelpers.SafeHandleAddRef(SafeHandle pHandle, Boolean& success)
+   在 Microsoft.Win32.UnsafeNativeMethods.GetOverlappedResult(SafeFileHandle hFile, NativeOverlapped* lpOverlapped, Int32& lpNumberOfBytesTransferred, Boolean bWait)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.WaitForCommEvent()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+[16:05:03 INFO ]: 当前系统有可用端口1个！
+[16:05:04 INFO ]: 当前系统有可用端口2个！
+[16:05:14 INFO ]: 正在连接,请执行复位......

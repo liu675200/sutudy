@@ -1,0 +1,5 @@
+--cpu Cortex-M4.fp ".\flash\obj\main.o" ".\flash\obj\mhscpu_it.o" ".\flash\obj\keyboard.o" ".\flash\obj\startup_mhscpu.o" ".\flash\obj\misc.o" ".\flash\obj\mhscpu_uart.o" ".\flash\obj\mhscpu_gpio.o" ".\flash\obj\mhscpu_exti.o" ".\flash\obj\mhscpu_sysctrl.o" ".\flash\obj\system_mhscpu.o" 
+--library_type=microlib --strict --scatter ".\Flash\Obj\KeyBoard.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\List\KeyBoard.map" -o .\Flash\Obj\KeyBoard.axf

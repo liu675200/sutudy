@@ -1,0 +1,16 @@
+.\Flash\Obj\main.o: ..\..\User\main.c
+.\Flash\Obj\main.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\Flash\Obj\main.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\Flash\Obj\main.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h
+.\Flash\Obj\main.o: ..\..\User\mhscpu_conf.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h
+.\Flash\Obj\main.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h

@@ -1,0 +1,4 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\User 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o ".\RAM\Obj\mhscpu_it.o" --omf_browse ".\RAM\Obj\mhscpu_it.crf" --depend ".\RAM\Obj\mhscpu_it.d" "..\..\User\mhscpu_it.c"

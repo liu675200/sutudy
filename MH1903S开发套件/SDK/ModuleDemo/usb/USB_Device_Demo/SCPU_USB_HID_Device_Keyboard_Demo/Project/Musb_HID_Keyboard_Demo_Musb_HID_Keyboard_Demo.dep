@@ -1,0 +1,372 @@
+Dependencies for Project 'Musb_HID_Keyboard_Demo', Target 'Musb_HID_Keyboard_Demo': (DO NOT MODIFY !)
+F (..\src\main.c)(0x5CAFFEF0)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\main.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\main.crf --depend .\flash\obj\main.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\hid_keyboard.h)(0x5C9B0A33)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_desc.h)(0x5A3B08DC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_hid_bsp.h)(0x5C9AF1D1)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_usr.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_otg.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd_int.h)(0x5987FF59)
+F (..\src\hid_keyboard.c)(0x5CAFFEE6)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\hid_keyboard.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\hid_keyboard.crf --depend .\flash\obj\hid_keyboard.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\hid_keyboard.h)(0x5C9B0A33)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_desc.h)(0x5A3B08DC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_hid_bsp.h)(0x5C9AF1D1)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_usr.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_otg.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd_int.h)(0x5987FF59)
+F (..\src\usb_bsp.c)(0x5C9AE5A3)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usb_bsp.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usb_bsp.crf --depend .\flash\obj\usb_bsp.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_bsp.h)(0x59E6DCA1)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+F (..\src\usbd_desc.c)(0x5CB00178)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usbd_desc.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usbd_desc.crf --depend .\flash\obj\usbd_desc.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_desc.h)(0x5A3B08DC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_req.h)(0x59BCD225)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+F (..\src\usbd_hid_bsp.c)(0x5CA310D5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usbd_hid_bsp.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usbd_hid_bsp.crf --depend .\flash\obj\usbd_hid_bsp.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_hid_bsp.h)(0x5C9AF1D1)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_desc.h)(0x5A3B08DC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_req.h)(0x59BCD225)
+F (..\src\usbd_usr.c)(0x5C98A1C6)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usbd_usr.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usbd_usr.crf --depend .\flash\obj\usbd_usr.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_usr.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+F (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM\startup_mhscpu.s)(0x5B98CEA4)(--cpu Cortex-M4.fp --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"--list .\flash\list\startup_mhscpu.lst --xref -o .\flash\obj\startup_mhscpu.o --depend .\flash\obj\startup_mhscpu.d)
+F (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\system_mhscpu.c)(0x5B307631)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\system_mhscpu.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\system_mhscpu.crf --depend .\flash\obj\system_mhscpu.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_gpio.c)(0x5B5BD291)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\mhscpu_gpio.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\mhscpu_gpio.crf --depend .\flash\obj\mhscpu_gpio.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\misc.c)(0x5987FF5A)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\misc.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\misc.crf --depend .\flash\obj\misc.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_sysctrl.c)(0x5C81DD43)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\mhscpu_sysctrl.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\mhscpu_sysctrl.crf --depend .\flash\obj\mhscpu_sysctrl.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_spi.c)(0x5987FF5A)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\mhscpu_spi.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\mhscpu_spi.crf --depend .\flash\obj\mhscpu_spi.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_uart.c)(0x5B62C865)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\mhscpu_uart.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\mhscpu_uart.crf --depend .\flash\obj\mhscpu_uart.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\src\usb_core.c)(0x5CAFFF16)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usb_core.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usb_core.crf --depend .\flash\obj\usb_core.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_bsp.h)(0x59E6DCA1)
+F (..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\src\usb_dcd.c)(0x5C45A6FB)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usb_dcd.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usb_dcd.crf --depend .\flash\obj\usb_dcd.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_bsp.h)(0x59E6DCA1)
+F (..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\src\usb_dcd_int.c)(0x5C45A70D)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usb_dcd_int.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usb_dcd_int.crf --depend .\flash\obj\usb_dcd_int.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd_int.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+F (..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\src\usbd_core.c)(0x5C45A770)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usbd_core.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usbd_core.crf --depend .\flash\obj\usbd_core.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_req.h)(0x59BCD225)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd_int.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_bsp.h)(0x59E6DCA1)
+F (..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\src\usbd_ioreq.c)(0x5987FF59)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usbd_ioreq.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usbd_ioreq.crf --depend .\flash\obj\usbd_ioreq.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+F (..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\src\usbd_req.c)(0x5C45A75B)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -W -O0 --apcs=interwork --asm --interleave --asm_dir ".\\FLASH\\List\\" -I..\inc -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\flash\obj\usbd_req.o --list_dir ".\\FLASH\\List\\" --list --omf_browse .\flash\obj\usbd_req.crf --depend .\flash\obj\usbd_req.d)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_req.h)(0x59BCD225)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_def.h)(0x59BCD20A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usbd_conf.h)(0x5A3B0BC4)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\usb_conf.h)(0x5A3B08CF)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5CAFFD1E)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4.h)(0x51C7B54A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\CMSIS\Include\core_cm4_simd.h)(0x51C7B54A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\ModuleDemo\usb\USB_Device_Demo\SCPU_USB_HID_Device_Keyboard_Demo\inc\mhscpu_conf.h)(0x5C9AE666)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5C81DD43)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5C0E60C8)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_core.h)(0x59BCD1FC)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_dcd.h)(0x59BCD407)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_core.h)(0x5C45A72D)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_regs.h)(0x5B696953)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_OTG_Driver\inc\usb_defines.h)(0x59BCD423)
+I (E:\SVN\SCPU\MH1903\MH1903开发套件\SDK\Libraries\SCPU_USB_Lib\SCPU_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x59BCD213)

@@ -1,0 +1,16 @@
+.\RAM\Obj\ring_buffer.o: ..\..\User\ring_buffer.c
+.\RAM\Obj\ring_buffer.o: ..\..\User\ring_buffer.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\RAM\Obj\ring_buffer.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h
+.\RAM\Obj\ring_buffer.o: ..\..\User\mhscpu_conf.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h
+.\RAM\Obj\ring_buffer.o: ..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h
+.\RAM\Obj\ring_buffer.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h

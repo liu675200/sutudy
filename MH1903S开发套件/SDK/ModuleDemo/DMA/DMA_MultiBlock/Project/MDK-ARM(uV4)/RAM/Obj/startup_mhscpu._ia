@@ -1,0 +1,4 @@
+--cpu Cortex-M4.fp --li -g --apcs=interwork --pd "__MICROLIB SETA 1" 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+--list ".\RAM\List\startup_mhscpu.lst" --xref -o ".\RAM\Obj\startup_mhscpu.o" --depend ".\RAM\Obj\startup_mhscpu.d" "..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM\startup_mhscpu.s"

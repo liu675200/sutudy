@@ -1,0 +1,145 @@
+Dependencies for Project 'MH1608C', Target 'MH1608C_FLASH': (DO NOT MODIFY !)
+F (..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM\startup_mhscpu.s)(0x5EA7BEE3)(--cpu Cortex-M4.fp --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"--list .\flash\list\startup_mhscpu.lst --xref -o .\flash\obj\startup_mhscpu.o --depend .\flash\obj\startup_mhscpu.d)
+F (..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\system_mhscpu.c)(0x5EA7BEE3)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\system_mhscpu.o --omf_browse .\flash\obj\system_mhscpu.crf --depend .\flash\obj\system_mhscpu.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\User\main.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\main.o --omf_browse .\flash\obj\main.crf --depend .\flash\obj\main.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\User\define.h)(0x5B683270)
+I (..\User\gpio.h)(0x5987FF58)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (..\User\spi.h)(0x5B6830C9)
+I (..\User\uart.h)(0x5987FF58)
+I (..\User\timer.h)(0x5987FF58)
+I (..\User\1608c\rfid.h)(0x5987FF58)
+I (..\User\1608c\mh523.h)(0x5B6830C9)
+I (..\User\1608c\iso14443_4.h)(0x5987FF58)
+I (..\User\1608c\iso14443a.h)(0x5987FF58)
+I (..\User\1608c\iso14443b.h)(0x5987FF58)
+F (..\User\gpio.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\gpio.o --omf_browse .\flash\obj\gpio.crf --depend .\flash\obj\gpio.d)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\User\gpio.h)(0x5987FF58)
+F (..\User\spi.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\spi.o --omf_browse .\flash\obj\spi.crf --depend .\flash\obj\spi.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\User\spi.h)(0x5B6830C9)
+F (..\User\timer.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\timer.o --omf_browse .\flash\obj\timer.crf --depend .\flash\obj\timer.d)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\User\timer.h)(0x5987FF58)
+F (..\User\uart.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\uart.o --omf_browse .\flash\obj\uart.crf --depend .\flash\obj\uart.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (..\User\uart.h)(0x5987FF58)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\User\mhscpu_it.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mhscpu_it.o --omf_browse .\flash\obj\mhscpu_it.crf --depend .\flash\obj\mhscpu_it.d)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\User\mhscpu_conf.h)(0x5A4243BE)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_spi.h)(0x5987FF5A)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_timer.h)(0x5B178336)
+I (..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\Libraries\MHSCPU_Driver\src\misc.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\misc.o --omf_browse .\flash\obj\misc.crf --depend .\flash\obj\misc.d)
+F (..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_gpio.c)(0x5EB92428)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mhscpu_gpio.o --omf_browse .\flash\obj\mhscpu_gpio.crf --depend .\flash\obj\mhscpu_gpio.d)
+F (..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_spi.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mhscpu_spi.o --omf_browse .\flash\obj\mhscpu_spi.crf --depend .\flash\obj\mhscpu_spi.d)
+F (..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_sysctrl.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mhscpu_sysctrl.o --omf_browse .\flash\obj\mhscpu_sysctrl.crf --depend .\flash\obj\mhscpu_sysctrl.d)
+F (..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_uart.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mhscpu_uart.o --omf_browse .\flash\obj\mhscpu_uart.crf --depend .\flash\obj\mhscpu_uart.d)
+F (..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_timer.c)(0x5EA7BEE5)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mhscpu_timer.o --omf_browse .\flash\obj\mhscpu_timer.crf --depend .\flash\obj\mhscpu_timer.d)
+F (..\User\1608c\rfid.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\rfid.o --omf_browse .\flash\obj\rfid.crf --depend .\flash\obj\rfid.d)
+F (..\User\1608c\iso14443_4.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\iso14443_4.o --omf_browse .\flash\obj\iso14443_4.crf --depend .\flash\obj\iso14443_4.d)
+F (..\User\1608c\iso14443a.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\iso14443a.o --omf_browse .\flash\obj\iso14443a.crf --depend .\flash\obj\iso14443a.d)
+F (..\User\1608c\iso14443b.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\iso14443b.o --omf_browse .\flash\obj\iso14443b.crf --depend .\flash\obj\iso14443b.d)
+F (..\User\1608c\mh523.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mh523.o --omf_browse .\flash\obj\mh523.crf --depend .\flash\obj\mh523.d)
+F (..\User\1608c\mifare.c)(0x5EA7BEE2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\User -I..\User\1608c -I..\..\..\Libraries\MHSCPU_Driver\inc -I..\..\..\Libraries\CMSIS\Include -I..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\Libraries\MHSCPU_Driver\inc\cryptlib -I..\..\..\Libraries\MHSCPU_Driver\inc\emvlib -I..\..\..\EMV_Lib\User\emv_lib-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -DARM_MATH_CM4 -o .\flash\obj\mifare.o --omf_browse .\flash\obj\mifare.crf --depend .\flash\obj\mifare.d)

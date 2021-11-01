@@ -1,0 +1,125 @@
+Dependencies for Project 'Project', Target 'FLASH': (DO NOT MODIFY !)
+F (..\..\User\main.c)(0x5B692433)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\main.o --omf_browse .\ram\obj\main.crf --depend .\ram\obj\main.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+F (..\..\User\mhscpu_it.c)(0x5B6923F2)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_it.o --omf_browse .\ram\obj\mhscpu_it.crf --depend .\ram\obj\mhscpu_it.d)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\..\User\mhscpu_it.h)(0x5A323B2B)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\ARM\startup_mhscpu.s)(0x5E902598)(--cpu Cortex-M4.fp --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"--list .\ram\list\startup_mhscpu.lst --xref -o .\ram\obj\startup_mhscpu.o --depend .\ram\obj\startup_mhscpu.d)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\misc.c)(0x5987FF5A)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\misc.o --omf_browse .\ram\obj\misc.crf --depend .\ram\obj\misc.d)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_gpio.c)(0x5E90363B)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_gpio.o --omf_browse .\ram\obj\mhscpu_gpio.crf --depend .\ram\obj\mhscpu_gpio.d)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_sysctrl.c)(0x5E903724)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_sysctrl.o --omf_browse .\ram\obj\mhscpu_sysctrl.crf --depend .\ram\obj\mhscpu_sysctrl.d)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_trng.c)(0x5E912230)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_trng.o --omf_browse .\ram\obj\mhscpu_trng.crf --depend .\ram\obj\mhscpu_trng.d)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\MHSCPU_Driver\src\mhscpu_uart.c)(0x5B62C865)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\mhscpu_uart.o --omf_browse .\ram\obj\mhscpu_uart.crf --depend .\ram\obj\mhscpu_uart.d)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Source\system_mhscpu.c)(0x5B307631)(-c --cpu Cortex-M4.fp -D__MICROLIB --li -g -O0 --apcs=interwork -I..\..\User -I..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include -I..\..\..\..\..\Libraries\CMSIS\Include -I..\..\..\..\..\Libraries\MHSCPU_Driver\inc-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o .\ram\obj\system_mhscpu.o --omf_browse .\ram\obj\system_mhscpu.crf --depend .\ram\obj\system_mhscpu.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\system_mhscpu.h)(0x5987FF59)
+I (..\..\..\..\..\Libraries\Device\MegaHunt\mhscpu\Include\mhscpu.h)(0x5B5BE26B)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4.h)(0x5209A732)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x5987FF5A)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x5209A730)
+I (..\..\User\mhscpu_conf.h)(0x5A424A76)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_sysctrl.h)(0x5B1641A4)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_uart.h)(0x5A326918)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_trng.h)(0x5B69249F)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\mhscpu_gpio.h)(0x5A3268E7)
+I (..\..\..\..\..\Libraries\MHSCPU_Driver\inc\misc.h)(0x5987FF5A)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)

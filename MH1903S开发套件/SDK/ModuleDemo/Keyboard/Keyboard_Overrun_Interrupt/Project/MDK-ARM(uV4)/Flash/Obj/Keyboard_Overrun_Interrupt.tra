@@ -1,0 +1,28 @@
+*** Creating Trace Output File '.\Flash\Obj\Keyboard_Overrun_Interrupt.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\obj\main.o"'
+### List of Objects: adding '".\flash\obj\mhscpu_it.o"'
+### List of Objects: adding '".\flash\obj\startup_mhscpu.o"'
+### List of Objects: adding '".\flash\obj\misc.o"'
+### List of Objects: adding '".\flash\obj\mhscpu_gpio.o"'
+### List of Objects: adding '".\flash\obj\mhscpu_kcu.o"'
+### List of Objects: adding '".\flash\obj\mhscpu_sysctrl.o"'
+### List of Objects: adding '".\flash\obj\mhscpu_uart.o"'
+### List of Objects: adding '".\flash\obj\system_mhscpu.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\flash\obj\main.o" ".\flash\obj\mhscpu_it.o" ".\flash\obj\startup_mhscpu.o" ".\flash\obj\misc.o" ".\flash\obj\mhscpu_gpio.o" ".\flash\obj\mhscpu_kcu.o" ".\flash\obj\mhscpu_sysctrl.o" ".\flash\obj\mhscpu_uart.o" ".\flash\obj\system_mhscpu.o" 
+--library_type=microlib --strict --scatter ".\Flash\Obj\Keyboard_Overrun_Interrupt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\List\Keyboard_Overrun_Interrupt.map" -o .\Flash\Obj\Keyboard_Overrun_Interrupt.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\Obj\Keyboard_Overrun_Interrupt.axf'
+### ADS-LD Command File: '.\Flash\Obj\Keyboard_Overrun_Interrupt.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\Obj\Keyboard_Overrun_Interrupt.lnp', Handle=0x00000DD8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\Obj\Keyboard_Overrun_Interrupt.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
