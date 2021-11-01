@@ -1,0 +1,248 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 intrrup.o
+ .data          0x00000000        0x0 intrrup.o
+ .bss           0x00000000        0x0 intrrup.o
+ .text.EXTI_LineConfig
+                0x00000000       0x8c intrrup.o
+ .text          0x00000000        0x0 start.o
+ .data          0x00000000        0x0 start.o
+ .bss           0x00000000        0x0 start.o
+ .text.UART0_IRQHandler
+                0x00000000        0xe start.o
+ .text.UART1_IRQHandler
+                0x00000000        0xe start.o
+ .text.EXTI1_IRQHandler
+                0x00000000        0xe start.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text.UART_ResetRTS
+                0x00000000       0x20 main.o
+ .text          0x00000000        0x0 gpio.o
+ .data          0x00000000        0x0 gpio.o
+ .bss           0x00000000        0x0 gpio.o
+ .text.GPIO_Config
+                0x00000000       0x70 gpio.o
+ .text.gpio_output_enable
+                0x00000000       0x4c gpio.o
+ .text.gpio_clear
+                0x00000000       0x4c gpio.o
+ .text.gpio_set
+                0x00000000       0x48 gpio.o
+ .text.ringBufferInit
+                0x00000000       0x4c gpio.o
+ .text          0x00000000        0x0 uart.o
+ .data          0x00000000        0x0 uart.o
+ .bss           0x00000000        0x0 uart.o
+ .text.UART_Read
+                0x00000000       0x1a uart.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0x5c uart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x01001000         0x00004000         xr
+RAM              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20010000                _estack = 0x20010000
+
+.text           0x01001000      0x9a8
+                0x01001000                . = ALIGN (0x4)
+                0x01001000                __text_start__ = .
+ *(*.cortex_vectors)
+ .data.cortex_vectors
+                0x01001000      0x100 start.o
+                0x01001000                cortex_vectors
+ *(*.Reset_Handler)
+ .text.Reset_Handler
+                0x01001100       0x7c start.o
+                0x01001100                Reset_Handler
+ *(.text*)
+ .text.NVIC_ClearPendingIRQ
+                0x0100117c       0x34 intrrup.o
+ .text.EXTI1_IRQHandler
+                0x010011b0       0x5c intrrup.o
+                0x010011b0                EXTI1_IRQHandler
+ .text.NVIC_GetPriorityGrouping
+                0x0100120c       0x1c intrrup.o
+ .text.NVIC_EncodePriority
+                0x01001228       0x66 intrrup.o
+ *fill*         0x0100128e        0x2 
+ .text.NVIC_SetPriority
+                0x01001290       0x54 intrrup.o
+ .text.NVIC_EnableIRQ
+                0x010012e4       0x34 intrrup.o
+ .text.NVIC_SetPriorityGrouping
+                0x01001318       0x48 intrrup.o
+ .text.NVIC_Configuration
+                0x01001360       0x44 intrrup.o
+                0x01001360                NVIC_Configuration
+ .text.NMI_Handler
+                0x010013a4        0xe start.o
+                0x010013a4                NMI_Handler
+ .text.HardFault_Handler
+                0x010013b2        0xe start.o
+                0x010013b2                HardFault_Handler
+ .text.MemManage_Handler
+                0x010013c0        0xe start.o
+                0x010013c0                MemManage_Handler
+ .text.BusFault_Handler
+                0x010013ce        0xe start.o
+                0x010013ce                BusFault_Handler
+ .text.UsageFault_Handler
+                0x010013dc        0xe start.o
+                0x010013dc                UsageFault_Handler
+ .text.SVC_Handler
+                0x010013ea        0xe start.o
+                0x010013ea                SVC_Handler
+ .text.DebugMon_Handler
+                0x010013f8        0xe start.o
+                0x010013f8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x01001406        0xe start.o
+                0x01001406                PendSV_Handler
+ .text.SysTick_Handler
+                0x01001414        0xe start.o
+                0x01001414                SysTick_Handler
+ .text.DMA0_IRQHandler
+                0x01001422        0xe start.o
+                0x01001422                DMA0_IRQHandler
+ .text.USB_IRQHandler
+                0x01001430        0xe start.o
+                0x01001430                USB_IRQHandler
+ .text.USBDMA_IRQHandler
+                0x0100143e        0xe start.o
+                0x0100143e                USBDMA_IRQHandler
+ .text.LCD_IRQHandler
+                0x0100144c        0xe start.o
+                0x0100144c                LCD_IRQHandler
+ .text.SCI0_IRQHandler
+                0x0100145a        0xe start.o
+                0x0100145a                SCI0_IRQHandler
+ .text.SPI0_IRQHandler
+                0x01001468        0xe start.o
+                0x01001468                SPI0_IRQHandler
+ .text.CRYPT0_IRQHandler
+                0x01001476        0xe start.o
+                0x01001476                CRYPT0_IRQHandler
+ .text.TIM0_0_IRQHandler
+                0x01001484        0xe start.o
+                0x01001484                TIM0_0_IRQHandler
+ .text.TIM0_1_IRQHandler
+                0x01001492        0xe start.o
+                0x01001492                TIM0_1_IRQHandler
+ .text.TIM0_2_IRQHandler
+                0x010014a0        0xe start.o
+                0x010014a0                TIM0_2_IRQHandler
+ .text.TIM0_3_IRQHandler
+                0x010014ae        0xe start.o
+                0x010014ae                TIM0_3_IRQHandler
+ .text.EXTI0_IRQHandler
+                0x010014bc        0xe start.o
+                0x010014bc                EXTI0_IRQHandler
+ .text.UART_SetRTS
+                0x010014ca       0x20 main.o
+                0x010014ca                UART_SetRTS
+ *fill*         0x010014ea        0x2 
+ .text.main     0x010014ec       0x7c main.o
+                0x010014ec                main
+ .text.UART0_IRQHandler
+                0x01001568      0x118 main.o
+                0x01001568                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x01001680       0x74 main.o
+                0x01001680                UART1_IRQHandler
+ .text.system_set
+                0x010016f4       0x44 main.o
+                0x010016f4                system_set
+ .text.Time_config
+                0x01001738       0x4c gpio.o
+                0x01001738                Time_config
+ .text.ringBufferPut
+                0x01001784       0x66 gpio.o
+                0x01001784                ringBufferPut
+ .text.ringBufferGet
+                0x010017ea       0x56 gpio.o
+                0x010017ea                ringBufferGet
+ .text.UART_IsRXFIFONotEmpty
+                0x01001840       0x26 uart.o
+                0x01001840                UART_IsRXFIFONotEmpty
+ .text.UART_Send
+                0x01001866       0x1e uart.o
+                0x01001866                UART_Send
+ .text.UART_Configuration
+                0x01001884      0x124 uart.o
+                0x01001884                UART_Configuration
+ *(.init)
+ *(.fini)
+ *(.rodata*)
+                0x010019a8                __text_end__ = .
+
+.glue_7         0x010019a8        0x0
+ .glue_7        0x010019a8        0x0 linker stubs
+
+.glue_7t        0x010019a8        0x0
+ .glue_7t       0x010019a8        0x0 linker stubs
+
+.vfp11_veneer   0x010019a8        0x0
+ .vfp11_veneer  0x010019a8        0x0 linker stubs
+
+.v4_bx          0x010019a8        0x0
+ .v4_bx         0x010019a8        0x0 linker stubs
+
+.iplt           0x010019a8        0x0
+ .iplt          0x010019a8        0x0 intrrup.o
+
+.rel.dyn        0x010019a8        0x0
+ .rel.iplt      0x010019a8        0x0 intrrup.o
+
+.data           0x20000000        0x0 load address 0x010019a8
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __data_start__ = .
+ *(.data*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __data_end__ = .
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 intrrup.o
+
+.bss            0x20000000      0x40c
+                0x20000000                __bss_start__ = .
+ *(.bss*)
+ .bss.ringbuf   0x20000000      0x40c main.o
+                0x20000000                ringbuf
+                0x2000040c                __bss_end__ = .
+LOAD intrrup.o
+LOAD start.o
+LOAD main.o
+LOAD gpio.o
+LOAD uart.o
+OUTPUT(main.exe elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x4d
+ .comment       0x00000000       0x4d intrrup.o
+                                 0x4e (size before relaxing)
+ .comment       0x0000004d       0x4e start.o
+ .comment       0x0000004d       0x4e main.o
+ .comment       0x0000004d       0x4e gpio.o
+ .comment       0x0000004d       0x4e uart.o
+
+.ARM.attributes
+                0x00000000       0x32
+ .ARM.attributes
+                0x00000000       0x32 intrrup.o
+ .ARM.attributes
+                0x00000032       0x32 start.o
+ .ARM.attributes
+                0x00000064       0x32 main.o
+ .ARM.attributes
+                0x00000096       0x32 gpio.o
+ .ARM.attributes
+                0x000000c8       0x32 uart.o

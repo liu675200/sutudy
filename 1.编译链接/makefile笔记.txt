@@ -1,0 +1,64 @@
+#学到Makefile5.1程序了
+
+cc = arm-none-eabi-gcc
+ld = arm-none-eabi-ld
+objcopy = arm-none-eabi-objcopy
+lds = link.ld
+target = main.o start.o
+output = main.hex
+
+
+$(output): main
+	$(objcopy) -O ihex main $(output)
+
+main: $(target)
+	$(ld) -nostdlib --gc-section -T $(lds) -Map main.map $^ -o main
+
+$(target): %.o :%.c
+	$(cc) -mthumb -mcpu=cortex-m3 -fdata-sections -ffunction-sections -O1  -c $< -o $@
+
+.PHONY : clean
+clean:
+	-rm *.o main *.map *.hex
+
+
+//链接到库的makefile
+
+$(output): main
+	$(objcopy) -O binary main main.bin
+#$(objcopy) -O ihex main $(output)
+
+CFLAGS := -mthumb -mcpu=cortex-m3 -fdata-sections -ffunction-sections -Wall -O1
+libgccdir := "$(shell $(cc) $(CFLAGS) -print-file-name=)"
+
+main: $(target)
+	$(ld) -nostdlib --gc-section -T $(lds)  $^ -static --start-group -L$(libgccdir) -lgcc -L. -lc --end-group -Map main.map -o main
+#-nostdlib
+$(target): %.o :%.c
+	$(cc) -mthumb -nostdinc -ffreestanding -mcpu=cortex-m3 -fdata-sections -ffunction-sections -Wall -O1 -c $< -o $@
+
+.PHONY : clean
+clean:
+	-rm *.o main *.map *.hex *.bin
+
+
+
+
+#		参数传递（子文件夹）与指令传递
+#sub:	
+#	cd /c/Users/Administrator/Desktop/make/abc ; make
+#sub1:
+#	#cd /c/Users/Administrator/Desktop/make/abc ; make; pwd
+#sub2:
+#	cd /c/Users/Administrator/Desktop/make/abc && pwd && make
+
+
+
+#		命令包
+#main : $(object)
+#	$(run-main)
+#
+#define run-main
+#	gcc -c *.c
+#	gcc -o main *.o
+#endef
